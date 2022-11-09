@@ -7,9 +7,10 @@ Közös:
 +2: megbeszélések megtartása
 +3: github összerakása
 +4: ...
--1: nem sikerült olyan időpontot találni, ami minednkinek jó
+-1: nem sikerült olyan időpontot találni, ami mindenkinek jó
 -2: a scrum board hasznalatanak elhagyasa
--3:...
+-3: megbeszélésekről való késés, vagy jelzés nélküli részvétel kihagyás
+-4: ...
 
 Ádám:
 +1: app váz felépítése
@@ -22,7 +23,9 @@ Márk:
 -1: git kezelése
 
 Denisz:
-+1: 
++1: határidőre való elkészültség
++2: receptek kitalálása
++3: weekly memo összegyűjtése
 -1: 
 
 Niki:
