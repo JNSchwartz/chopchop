@@ -865,8 +865,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1914}
-  m_SizeDelta: {x: 0, y: 1652}
+  m_AnchoredPosition: {x: 0, y: -2373}
+  m_SizeDelta: {x: 0, y: 872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &465355218
 MonoBehaviour:
@@ -1972,8 +1972,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -540}
-  m_SizeDelta: {x: 0, y: 1080}
+  m_AnchoredPosition: {x: 0, y: -960}
+  m_SizeDelta: {x: 0, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225630635
 MonoBehaviour:
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   background: {fileID: 2027776730}
-  path: Videos/Meal2.mp4
+  path: Videos/Meal3.mp4
 --- !u!114 &1918616576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3286,8 +3286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2035.0005}
-  m_SizeDelta: {x: 0, y: 4070}
+  m_AnchoredPosition: {x: 0, y: -1592.5009}
+  m_SizeDelta: {x: 0, y: 3185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006246036
 MonoBehaviour:
