@@ -6,11 +6,11 @@ Közös:
 +1: projekt elindítás
 +2: megbeszélések megtartása
 +3: github összerakása
-+4: ...
++4: reorganized meeting
 -1: nem sikerült olyan időpontot találni, ami mindenkinek jó
 -2: a scrum board hasznalatanak elhagyasa
 -3: megbeszélésekről való késés, vagy jelzés nélküli részvétel kihagyás
--4: ...
+-4: google meets ownership
 
 Ádám:
 +1: app váz felépítése
@@ -34,5 +34,7 @@ Niki:
 -1: 
 
 József:
-+1: 
--1: 
++1: új technológiát ismerek meg
++2: loosly coupled distributed team function
+-1: nem céltechnológia
+-2: unclear responsibilites in the project
