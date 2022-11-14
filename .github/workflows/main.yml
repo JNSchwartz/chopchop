@@ -1,0 +1,19 @@
+name: Build project
+
+on: [push, pull_request]
+
+jobs:
+  buildWebGL:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          lfs: true
+      - uses: game-ci/unity-builder@v2
+        with:
+          targetPlatform: WebGL
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build-WebGL
+          path: build/WebGL
