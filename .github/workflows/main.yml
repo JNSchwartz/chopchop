@@ -13,7 +13,7 @@ jobs:
       - uses: game-ci/unity-builder@v2
         with:
           targetPlatform: WebGL
-          path: CookItYourself
+          projectPath: CookItYourself
       - uses: actions/upload-artifact@v2
         with:
           name: Build-WebGL
