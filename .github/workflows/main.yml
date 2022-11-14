@@ -12,6 +12,7 @@ jobs:
           lfs: true
       - uses: game-ci/unity-builder@v2
         with:
+          UNITY_LICENSE: ${{ secrets.UNITY}}
           targetPlatform: WebGL
           projectPath: CookItYourself
       - uses: actions/upload-artifact@v2
