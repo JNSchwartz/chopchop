@@ -10,9 +10,13 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+      - name: build
+        working-directory: CookItYourself
       - uses: game-ci/unity-builder@v2
         with:
           targetPlatform: WebGL
+      - name: upload
+        working-directory: CookItYourself
       - uses: actions/upload-artifact@v2
         with:
           name: Build-WebGL
