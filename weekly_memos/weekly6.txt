@@ -1,0 +1,7 @@
+- CI/CD-vel Jozsi foglalkozik
+- iPhone Safari es Chrome sem kezeli, Chrome lefagy, Safarin mukodik kepek nelkul
+- Webes bongeszoben a zoomolast megodlani
+- logo bejon betoltesnel
+- logot kicserelni a szovegre a recepteknel
+- kepeket egysegesiteni
+- hatteret lecserelni
