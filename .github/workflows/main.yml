@@ -13,6 +13,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+          submodule: true
 
       # Cache
       - uses: actions/cache@v2
@@ -43,7 +44,8 @@ jobs:
       # Submodule update
       - name: submodule commit
         run: |
-          cd build/WebGL/WebGL/chopdemo
+          cp -r build/WebGL/WebGL/* chopdemo/
+          cd chopdemo
           git add .
           git commit -am 'autodeploy'
           git push
