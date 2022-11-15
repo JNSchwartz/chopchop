@@ -1,0 +1,3 @@
+[submodule "chopdemo"]
+	path = chopdemo
+	url = git@github.com:JNSchwartz/chopdemo.git
