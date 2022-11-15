@@ -45,3 +45,5 @@ jobs:
         with:
           name: Build
           path: build
+      # Output
+      - run: tree
