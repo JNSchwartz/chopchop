@@ -1,6 +1,9 @@
 name: Build project
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -50,10 +53,10 @@ jobs:
           cd chopdemo
           git add .
           git commit -am 'autodeploy'
-          git push
+          git push origin HEAD:master
           cd ..
           git commit -am 'autodeploy'
-          git push
+          git push origin HEAD:master
           
         
       
