@@ -1,0 +1,3 @@
+[submodule "build/WebGL/WebGL/chopdemo"]
+	path = build/WebGL/WebGL/chopdemo
+	url = git@github.com:JNSchwartz/chopdemo.git
