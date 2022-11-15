@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-          submodule: true
+          submodules: true
 
       # Cache
       - uses: actions/cache@v2
