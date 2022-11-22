@@ -1,0 +1,7 @@
+- valami facebook oldalra erdemes kirakni
+- code coverage nem feltetlenul szamit
+- inkabb integration test
+- a fo folyamatok menjenek
+
+-az elejehez kepest mi valosult meg
+- a pontokra koncentralni a prezentacional
