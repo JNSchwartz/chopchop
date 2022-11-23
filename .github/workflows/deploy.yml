@@ -2,7 +2,8 @@ name: deploy page
 
 on:
   workflow_run:
-    workflows: ["Build project"]
+    workflows:
+      - Build project
     types:
       - completed
 
