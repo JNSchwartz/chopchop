@@ -1,9 +1,10 @@
-name: Build project
+name: deploy page
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Build project"]
+    types:
+      - completed
 
   workflow_dispatch:
   
