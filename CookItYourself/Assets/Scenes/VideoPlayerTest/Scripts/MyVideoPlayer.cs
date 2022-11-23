@@ -1,3 +1,4 @@
+using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Video;
@@ -18,6 +19,13 @@ public class MyVideoPlayer : MonoBehaviour
     {
         videoPlayer = GetComponent<VideoPlayer>();
         videoPlayer.url = Path.Combine(Application.streamingAssetsPath, path);
+        videoPlayer.loopPointReached += VideoPlayerLoopPointReached;
+    }
+
+    private void VideoPlayerLoopPointReached(VideoPlayer source)
+    {
+        playing = false;
+        background.SetActive(true);
     }
 
     public void OnClick()
