@@ -1,13 +1,6 @@
 name: deploy page
 
-on:
-  workflow_run:
-    workflows:
-      - Build project
-    types:
-      - completed
-
-  workflow_dispatch:
+workflow_dispatch:
   
 permissions:
   id-token: write
@@ -16,7 +9,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 jobs:
-  
   deploy:
     environment:
       name: github-pages
