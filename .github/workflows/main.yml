@@ -8,8 +8,20 @@ on:
   workflow_dispatch:
   
 permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
   id-token: write
-# Allow one concurrent deployment
+  issues: write
+  discussions: write
+  packages: write
+  pages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+  
 concurrency:
   group: "pages"
   cancel-in-progress: true
