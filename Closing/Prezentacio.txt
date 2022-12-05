@@ -6,7 +6,9 @@ Mint már mondtam, szerintem egy felvételt kellene készíteni, amin végigkatt
 
 
 2. Főmenü
-Mikor megnyitjuk a programot a főmenü köszönt minket, itt láthatjuk az applikációban elérhető összes ételt egy gördülő menüben. Az MVP négy ételt tartalmaz ezek a következőek: Szecsuáni csirke, Garnélás tészta, Bolognai spagetti és Töltött bundáskenyér. A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor is köszönt minket.
+Mikor megnyitjuk a programot a főmenü köszönt minket, itt láthatjuk az applikációban elérhető összes ételt egy gördülő menüben.
+Az MVP négy ételt tartalmaz ezek a következőek: Szecsuáni csirke, Garnélás tészta, Bolognai spagetti és Töltött bundáskenyér.
+A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor is köszönt minket.
 
 3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
 
