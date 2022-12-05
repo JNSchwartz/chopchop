@@ -1,1 +1,9 @@
 Ide kellene összegyűjteni az ötleteinket, amiket bele szeretnénk rakni a prezentációba.
+
+Mint már mondtam, szerintem egy felvételt kellene készíteni, amin végigkattingatjuk az appot, közben kiemeljük a fontos dolgokat.
+
+1. A termék átfedő leírása, mi az amit megcsináltunk.
+2. Főmenü
+3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
+4. MVP-nek megfelel
+5. CI/CD megtekinthető
