@@ -1,0 +1,17 @@
+A félév végi értékeléshez a következő dolgokat mind adjátok be:
+
+- Rövid ismertető a szoftvertermékről (lehet prezentáció vagy dokumentáció, de legyen rövid, külső embernek adható anyag)
+  Prezentacio.txt
+  
+- Max. 2 perces videó a termék működéséről
+  formátum: mp4 konténer, H264 mpeg4-avc video, AAC audio, max 1080p felbontás, max 30fps, max 30MB méret
+  X
+  
+- Link a futtatáshoz szükséges rendszerre, programra, appra, hogy kipróbálható legyen a szoftver (ez backup, a szoftvert személyesen mutassátok be a coach-nak)
+  https://adam-97.github.io/CookItYourselfDemo/ (ha javítva van és friss az automatikus, akkor ez lehet cserélni arra)
+  
+- Link a VCS-hez és a CI-hoz a fenntarthatósági feltételek teljesítéséhez
+  * https://github.com/JNSchwartz/chopchop
+  * https://github.com/users/JNSchwartz/projects/3/views/1
+  
+Értékelési tábla: https://canvas.elte.hu/courses/28448/assignments/213313
