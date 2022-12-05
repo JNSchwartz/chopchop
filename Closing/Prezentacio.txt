@@ -12,10 +12,13 @@ Az MVP négy ételt tartalmaz ezek a következőek: Szecsuáni csirke, Garnélá
 A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor is köszönt minket.
 
 3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
-
+XX Ez a rész hiányzik még XX
+Szerintem valamelyik rövid kellene, hogy belefétjünk az időbe, ide nem hiszem hogy sok szöveg kellene amúgy sem.
 
 4. MVP-nek megfelel
-
+Mint láthatjuk, az MVP-ben szereplő pontoknak a programunk megfelel, az ételek elkészítését lépésenkénti videók segítik így kezdő is künnyedén
+követni tudják a recepteket.
 
 5. CI/CD megtekinthető
-
+Az alkalmazás fejlesztése során folyamatosan készült dokumántáció és a mellékelt linkeken lekövethető a program teljes életciklusa.
+Az elvárásoknak megfelelően készült a projekthez egy CI/CD rendszer is, ami automatikusan buildel, tesztel és deploy-ol.
