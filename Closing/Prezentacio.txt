@@ -3,7 +3,8 @@ Ide kellene összegyűjteni az ötleteinket, amiket bele szeretnénk rakni a pre
 Mint már mondtam, szerintem egy felvételt kellene készíteni, amin végigkattingatjuk az appot, közben kiemeljük a fontos dolgokat.
 
 1. A termék átfedő leírása, mi az amit megcsináltunk.
-
+A mi programunk a Cook It Yourself, ami egy fő alkalmazás, segítségével a teljesen kezdő szakácsok is képesek kényelmesen és játékosan új
+recepteket tanulni.
 
 2. Főmenü
 Mikor megnyitjuk a programot a főmenü köszönt minket, itt láthatjuk az applikációban elérhető összes ételt egy gördülő menüben.
