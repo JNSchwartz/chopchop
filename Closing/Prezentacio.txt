@@ -12,8 +12,12 @@ Az MVP négy ételt tartalmaz ezek a következőek: Szecsuáni csirke, Garnélá
 A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor is köszönt minket.
 
 3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
-XX Ez a rész hiányzik még XX
-Szerintem valamelyik rövid kellene, hogy belefétjünk az időbe, ide nem hiszem hogy sok szöveg kellene amúgy sem.
+Ha rányomunk egy ételre, akkor megjelenik a képe nagyobban egy új menüben. Alatta olvashatóak az étel elkészítéshez
+szükséges hozzávalók. A hozzávalók alatt pedig megtalálható a kezdés gomb, aminek segítségével az első lépéshez jutunk.
+Itt, a menü tetején a gombra nyomva elindíthatjuk az első lépéshez tartozó videót. A videó alatt pedig elolvashatjuk, hogy
+ebben a lépésben mit kell tennünk. Alul láthatjuk, hogy hanyadik lépésnél tartunk, illetve, hogy hány lépés van összesen.
+Ha a következő lépésre szeretnénk menni, akkor a lenti nyilakkal tudunk navigálni a lépések között. A fenti balra mutató
+nyil segítségével pedig először a kiválasztott étel hozzávalóihoz jutunk, ismét lenyomva pedig a főmenübe.
 
 4. MVP-nek megfelel
 Mint láthatjuk, az MVP-ben szereplő pontoknak a programunk megfelel, az ételek elkészítését lépésenkénti videók segítik így kezdő is künnyedén
