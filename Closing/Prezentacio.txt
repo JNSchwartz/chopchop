@@ -1,28 +1,29 @@
-Ide kellene összegyűjteni az ötleteinket, amiket bele szeretnénk rakni a prezentációba.
+// Ide kellene összegyűjteni az ötleteinket, amiket bele szeretnénk rakni a prezentációba.
+// Mint már mondtam, szerintem egy felvételt kellene készíteni, amin végigkattingatjuk az appot, közben kiemeljük a fontos dolgokat.
 
-Mint már mondtam, szerintem egy felvételt kellene készíteni, amin végigkattingatjuk az appot, közben kiemeljük a fontos dolgokat.
+// 1. A termék átfedő leírása, mi az amit megcsináltunk.
+A Cook It Yourself névre hallgató alkalmazásunk segítséget nyújt a teljesen kezdő - és magasabb szinteken levő szakácsoknak új
+recepteket tanulásában és elkészítésében.
 
-1. A termék átfedő leírása, mi az amit megcsináltunk.
-A mi programunk a Cook It Yourself, ami egy fő alkalmazás, segítségével a teljesen kezdő szakácsok is képesek kényelmesen és játékosan új
-recepteket tanulni.
+// 2. Főmenü
+Az alkalmazásba való belépéskor egy főmenü köszönt minket, ahol láthatjuk az applikációban elérhető összes ételt nehézési szintek
+alapján kategorizálva egy gördülő menüben.
+Az MVP a kezdő szintet tartalmazza ami alatt négy étel található: Szecsuáni csirke, Garnélás tészta, Bolognai spagetti és Töltött bundáskenyér.
+A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor észre vehető.
 
-2. Főmenü
-Mikor megnyitjuk a programot a főmenü köszönt minket, itt láthatjuk az applikációban elérhető összes ételt egy gördülő menüben.
-Az MVP négy ételt tartalmaz ezek a következőek: Szecsuáni csirke, Garnélás tészta, Bolognai spagetti és Töltött bundáskenyér.
-A háttérben az applikáció logóját is láthatjuk, ami a program megynitásakor is köszönt minket.
+// 3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
+A főmenüből egy étel ikonját kiválasztva egy új oldalra jutunk, ahol fent megjelenik az ételről készült kép nagyobb méretben, 
+illetve alatta olvashatóak az étel elkészítéshez szükséges hozzávalók. A hozzávalók alatt megtalálható a kezdés gomb, aminek segítségével 
+lépésenként felosztott oldalakon navigálhatunk. Először az elkészitéshez szükséges első lépéshez jutunk, ahol a tetején lejátszási gombra 
+kattintva elindíthatjuk az első lépéshez tartozó videót. A videó alatt a lépés elvégzéséhez szükséges információkat és utasításokat taljáljuk.
+Az oldal alján láthatjuk, hogy hanyadik lépésnél tartunk, illetve, hogy hány lépés van összesen.
+Amennyiben a következő vagy megelőző lépésre szeretnénk váltani, a lenti nyilakkal tehetjük ezt meg. A menüben található fenti balra mutató
+nyil segítségével a hozzávalókat tartalmazó kiválasztott ételhez jutunk, ismét lenyomva pedig a főmenübe.
 
-3. Egy étel végignézése (egy rövid, 2 perce bele kell férni)
-Ha rányomunk egy ételre, akkor megjelenik a képe nagyobban egy új menüben. Alatta olvashatóak az étel elkészítéshez
-szükséges hozzávalók. A hozzávalók alatt pedig megtalálható a kezdés gomb, aminek segítségével az első lépéshez jutunk.
-Itt, a menü tetején a gombra nyomva elindíthatjuk az első lépéshez tartozó videót. A videó alatt pedig elolvashatjuk, hogy
-ebben a lépésben mit kell tennünk. Alul láthatjuk, hogy hanyadik lépésnél tartunk, illetve, hogy hány lépés van összesen.
-Ha a következő lépésre szeretnénk menni, akkor a lenti nyilakkal tudunk navigálni a lépések között. A fenti balra mutató
-nyil segítségével pedig először a kiválasztott étel hozzávalóihoz jutunk, ismét lenyomva pedig a főmenübe.
+// 4. MVP-nek megfelel
+Mint láthatjuk, az MVP-ben szereplő pontoknak a programunk megfelel, az ételek elkészítését lépésenkénti videók segítik így egy kezdő szinten 
+álló személy is könnyedén követni tudja a recepteket.
 
-4. MVP-nek megfelel
-Mint láthatjuk, az MVP-ben szereplő pontoknak a programunk megfelel, az ételek elkészítését lépésenkénti videók segítik így kezdő is künnyedén
-követni tudják a recepteket.
-
-5. CI/CD megtekinthető
-Az alkalmazás fejlesztése során folyamatosan készült dokumántáció és a mellékelt linkeken lekövethető a program teljes életciklusa.
+// 5. CI/CD megtekinthető
+Az alkalmazás fejlesztése során folyamatosan készült dokumentáció és a mellékelt linkeken lekövethető a program teljes életciklusa.
 Az elvárásoknak megfelelően készült a projekthez egy CI/CD rendszer is, ami automatikusan buildel, tesztel és deploy-ol.
